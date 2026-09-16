@@ -42,10 +42,10 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .menu-button { display: none; border: 0; background: transparent; padding: 8px; }
 .menu-button span { display: block; width: 30px; height: 2px; margin: 6px 0; background: #fff; }
 
-.hero { position: relative; min-height: 690px; overflow: hidden; color: #fff; background: var(--navy-deep); }
-.hero-image { position: absolute; inset: 0; background: url("assets/hero-cleaning.jpg") center 45% / cover no-repeat; transform: scale(1.012); }
+.hero { position: relative; min-height: 100vh; min-height: 100svh; overflow: hidden; color: #fff; background: var(--navy-deep); }
+.hero-image { position: absolute; inset: 0; background: url("assets/hero-cleaning.jpg") center 45% / cover no-repeat; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(2,12,28,.95) 0%, rgba(3,18,40,.78) 35%, rgba(5,21,42,.24) 67%, rgba(4,16,34,.15) 100%); }
-.hero-content { position: relative; z-index: 2; width: min(1440px, 100%); min-height: 690px; margin: 0 auto; padding: 190px clamp(28px, 4vw, 72px) 78px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+.hero-content { position: relative; z-index: 2; width: min(1440px, 100%); min-height: 100vh; min-height: 100svh; margin: 0 auto; padding: 190px clamp(28px, 4vw, 72px) 78px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
 .eyebrow { margin-bottom: 22px; color: #a8c8f5; font-size: .76rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
 .hero h1 { margin: 0; font-size: clamp(4.8rem, 9.5vw, 9.2rem); line-height: .8; letter-spacing: .015em; font-weight: 900; }
 .hero-line { width: 58px; height: 4px; margin: 34px 0 26px; background: linear-gradient(90deg, var(--blue-bright), transparent); }
@@ -175,7 +175,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .brand-name { font-size: 2rem; }
   .brand-caption { max-width: 220px; margin-top: 7px; font-size: .64rem; }
   .header-phone { display: none; }
-  .hero, .hero-content { min-height: 640px; }
+  .hero, .hero-content { min-height: 100vh; min-height: 100svh; }
   .hero-image { background-position: 62% center; }
   .hero-overlay { background: linear-gradient(90deg, rgba(2,12,28,.93) 0%, rgba(3,18,40,.75) 64%, rgba(5,21,42,.45) 100%); }
   .hero-content { padding: 146px 20px 56px; justify-content: flex-end; }
